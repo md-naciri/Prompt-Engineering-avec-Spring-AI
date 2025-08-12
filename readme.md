@@ -1,32 +1,23 @@
-Chatbot AI
+# Chatbot AI
 
-This repository contains a simple chatbot AI application built with Spring Boot. It provides a conversational agent that can interact with users. The application includes controllers for AI agent functionality, image generation, multimodal interactions, and streaming responses. It leverages Spring AI for integrating various AI models and services.
+A Spring Boot conversational AI application with multimodal capabilities.
 
-Features:
+## Features
 
-•
-Conversational AI: Core chatbot functionality for natural language interactions.
+- Natural language conversations
+- AI image generation
+- Multimodal interactions
+- Real-time streaming responses
 
-•
-Image Generation: Integration for generating images based on user prompts.
+## Tech Stack
 
-•
-Multimodal Interactions: Support for various input/output modalities beyond text.
+- Java + Spring Boot
+- Spring AI
+- Maven
 
-•
-Streaming Responses: Provides real-time streaming of chatbot responses.
+## Quick Start
 
-Technologies Used:
-
-•
-Java
-
-•
-Spring Boot
-
-•
-Spring AI
-
-•
-Maven
-
+```bash
+git clone <repository-url>
+mvn clean install
+mvn spring-boot:run
